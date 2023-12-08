@@ -1,0 +1,264 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ------home------- */
+.logo {
+    float: left;
+    margin-left: 30px;
+    width: 25%;    
+    padding-top: 1%;
+    text-align: center;
+}
+
+.nav-bar ul {
+    float: left;
+   
+    list-style: none;
+    width: 100%;
+    padding-left: 0;
+    margin-left: 50%;
+}
+
+.nav-ul li {
+    float: left;
+    padding-right: 2%;
+
+}
+
+.nav-ul li a {
+    text-decoration: none;
+}
+
+.home {
+    background-image: url(hero\ img.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav-bar {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-ul {
+    overflow: hidden;
+    width: 70%;
+}
+
+.header {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 20%;
+
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+   
+}
+
+.back {
+    background-color: rgba(0, 0, 0, 0.505);
+    overflow: hidden;
+    height: 100vh;
+}
+
+/* ------------about---------- */
+.about {
+    margin-top: 5%;
+    
+    width: 100%;
+}
+.profiel{
+  
+    width: 48%;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px ;
+    padding-left: 100px;
+    overflow: hidden;
+
+    
+}
+.box{
+    border: #555555 solid 2;
+    border-radius: 5px;
+    
+
+}
+.profil-photo{
+    position: relative;
+    width: 70%;
+    }
+    .profil-photo img{
+        width: 100%;
+        border-radius: 1%;
+    }
+.profiel-caption{
+    width: 100%;
+    background-color: rgba(8, 8, 8, 0.352);
+    position: absolute;
+    top: 0;
+    bottom: 0px;
+    transform: translatey(100%);
+    transition: transform 1s;
+}
+.captions-icons{
+    margin-top: 50%;
+    text-align: center;
+    transform: scale(2.2);  
+    
+}
+.captions-icons a{
+    color: #ffffff;
+}
+.fa-brands:hover{
+    color: #FF305B;
+}
+
+.profil-photo:hover .profiel-caption{
+    transform: translatey(0px);
+}
+
+.context{
+    float: left;
+   
+    width: 48%;
+    
+
+}
+.context h3{
+    /* text-align: center; */
+    position: relative;
+    left: 15;
+}
+.context h3::before{
+    content: " ";
+    background-color:#FF305B ;
+    position: absolute;
+    top: 0;
+    left: -15;
+    width: 2px;
+    height: 20px;
+}
+
+
+
+/* ------our-services-------- */
+.our-services{
+    background-color: #F1F1F1;
+}
+.headr-of-our-services {
+    text-align: center;
+}
+.line{
+    background-color: #F891A6;
+    height: 2px;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+    
+}
+.line1{
+    background-color: #FF305B;
+    height: 2px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2px ;
+    margin-bottom: 2px ;
+}
+.line3{
+    background-color: #F891A6;
+    height: 2px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2px ;
+    margin-bottom: 2px ;
+}
+.ah {
+    float: left;
+    /* background-color: aqua; */
+    width: 24%;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0px 20px;
+    margin-top: 30px;
+}
+
+.services {
+    width: 100%;
+    margin: auto;
+    
+    text-align: center;
+}
+
+.ah:hover {
+    background-color: aliceblue;
+    transform: scale(1.2);
+    transition: transform;
+    transition-duration: 1s;
+}
+/* ----------------OUR portofolio------------- */
+.our-portfoilo h2{
+    text-align: center;
+    
+}
+.header-portfolio ul {
+    float: left;
+  
+    list-style: none;
+    width: 50%; 
+}
+.header-portfolio{
+    overflow: hidden;
+    margin: auto;
+    padding-left: 33%;
+    
+}
+
+
+.header-portfolio li {
+    float: left;
+    padding-right: 2%;
+    
+}
+
+.header-portfolio li a {
+    text-decoration: none;    
+}
+
+
+
+
+/* --------- our product--------- */
+.row{
+    width: 100%;   
+}
+.port img{
+float: left;
+width: 33%;
+box-sizing: border-box;
+padding: 1%;
+position: relative;
+}
+.row-caption{
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+}
+
+
